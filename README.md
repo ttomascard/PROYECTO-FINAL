@@ -1,2 +1,8 @@
-# PROYECTO-FINAL
-Proyecto final lógica de programación, Sebastián Sánchez y Tomás Cardona
+
+
+## INFORMACIÓN DEL EQUIPO
+### Integrantes
+
+- Sebastián Sánchez.
+- Tomás Cardona.
+-
