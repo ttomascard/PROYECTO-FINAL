@@ -2,12 +2,12 @@
 
 -¿Qué hemos hecho?
 
-*Crear el archivo de seguimiento.md
+- Crear el archivo de seguimiento.md
 
 -¿Qué vamos a hacer?
 
-*Revisar el repositorio conforme a las explicaciones del profesor.
+- Revisar el repositorio conforme a las explicaciones del profesor.
 
 -¿Qué dificultades tengo?
 
-*Ninguna
+- Ninguna
