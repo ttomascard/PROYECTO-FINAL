@@ -3,6 +3,7 @@
 **1. ¿Qué hemos hecho?**
 
 - Crear el archivo de seguimiento.md
+- Agregar una imagen y emojis al READ.ME
 
 **2. ¿Qué vamos a hacer?**
 
