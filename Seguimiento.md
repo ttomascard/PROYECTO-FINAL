@@ -11,4 +11,18 @@
 
 **3. ¿Qué dificultades tengo?**
 
-- Ninguna
+- Ninguna.
+
+## 13 de Abril - Seguimiento
+
+**1. ¿Qué hemos hecho?**
+
+- Actualizar el archivo seguiminento.md
+
+**2. ¿Qué vamos a hacer?**
+
+- Participar en otro proyecto donde pondremos una canción y su letra.
+
+**3. ¿Qué doficultades tengo?**
+
+- Ninguna.
