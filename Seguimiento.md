@@ -18,11 +18,12 @@
 **1. ¿Qué hemos hecho?**
 
 - Actualizar el archivo seguiminento.md
+- Participar en otro proyecto donde pusimos una canción con su letra.
 
 **2. ¿Qué vamos a hacer?**
 
-- Participar en otro proyecto donde pondremos una canción y su letra.
+- Esperar a que se nos valide el pull request en otro proyecto.
 
-**3. ¿Qué doficultades tengo?**
+**3. ¿Qué dificultades tengo?**
 
 - Ninguna.
