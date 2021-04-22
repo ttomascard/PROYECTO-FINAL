@@ -17,12 +17,26 @@
 
 **1. ¿Qué hemos hecho?**
 
-- Actualizar el archivo seguiminento.md
+- Actualizar el archivo seguimiento.md
 - Participar en otro proyecto donde pusimos una canción con su letra.
 
 **2. ¿Qué vamos a hacer?**
 
 - Esperar a que se nos valide el pull request en otro proyecto.
+
+**3. ¿Qué dificultades tengo?**
+
+- Ninguna.
+
+## 20 de Abril - Seguimiento
+
+**1. ¿Qué hemos hecho?**
+
+-Actualizar el archivo seguimiento.md
+
+**2. ¿Qué vamos a hacer?**
+
+-Revisar el proyecto para la primera revisión.
 
 **3. ¿Qué dificultades tengo?**
 
