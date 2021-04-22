@@ -32,11 +32,11 @@
 
 **1. ¿Qué hemos hecho?**
 
--Actualizar el archivo seguimiento.md
+- Actualizar el archivo seguimiento.md
 
 **2. ¿Qué vamos a hacer?**
 
--Revisar el proyecto para la primera revisión.
+- Revisar el proyecto para la primera revisión.
 
 **3. ¿Qué dificultades tengo?**
 
