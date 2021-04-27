@@ -41,3 +41,18 @@
 **3. ¿Qué dificultades tengo?**
 
 - Ninguna.
+
+## 27 de Abril - Seguimiento
+
+**1. ¿Qué hemos hecho?**
+
+- Actualizar el archivo seguimiento.md y revisar el proyecto
+
+**2. ¿Qué vamos a hacer?**
+
+- Agregar la ruta del archivo de sonido en la descripción de la letra de la canción y ajustar las tildes y caracteres especiales de la canción correspondiente del equipo.
+- Personalizar y definir que se va a hacer de proyecto
+
+**3. ¿Qué dificultades tengo?**
+
+- Ninguna
