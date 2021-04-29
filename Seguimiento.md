@@ -47,6 +47,7 @@
 **1. ¿Qué hemos hecho?**
 
 - Actualizar el archivo seguimiento.md y revisar el proyecto
+- Actualizar el archivo READ.ME donde definimos el proyecto que vamos a realizar
 
 **2. ¿Qué vamos a hacer?**
 
