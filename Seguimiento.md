@@ -2,8 +2,8 @@
 
 **1. ¿Qué hemos hecho?**
 
-- Crear el archivo de seguimiento.md
-- Agregar una imagen y emojis al READ.ME
+- Crear el archivo de seguimiento.md.
+- Agregar una imagen y emojis al READ.ME.
 
 **2. ¿Qué vamos a hacer?**
 
@@ -13,11 +13,25 @@
 
 - Ninguna.
 
+## 8 de Abril - Seguimiento
+
+**1. ¿Qué hemos hecho?**
+
+- Actualizar el archivo de seguimiento.md.
+
+**2. ¿Qué vamos a hacer?**
+
+- Revisar comandos y lenguajes en git.
+
+**3. ¿Qué dificultades tengo?**
+
+- Ninguna.
+
 ## 13 de Abril - Seguimiento
 
 **1. ¿Qué hemos hecho?**
 
-- Actualizar el archivo seguimiento.md
+- Actualizar el archivo seguimiento.md.
 - Participar en otro proyecto donde pusimos una canción con su letra.
 
 **2. ¿Qué vamos a hacer?**
@@ -28,11 +42,26 @@
 
 - Ninguna.
 
+## 15 de Abril - Seguimiento
+
+**1. ¿Qué hemos hecho?**
+
+- Actualizar el archivo de seguimiento.md.
+- Revisar la letra de la canción en la que contribuimos.
+
+**2. ¿Qué vamos a hacer?**
+
+- Revisar el repositorio guía.
+
+**3. ¿Qué dificultades tengo?**
+
+- Ninguna.
+
 ## 20 de Abril - Seguimiento
 
 **1. ¿Qué hemos hecho?**
 
-- Actualizar el archivo seguimiento.md
+- Actualizar el archivo seguimiento.md.
 
 **2. ¿Qué vamos a hacer?**
 
@@ -42,18 +71,63 @@
 
 - Ninguna.
 
+## 22 de Abril - Seguimiento
+
+**1. ¿Qué hemos hecho?**
+
+- Actualizar el archivo de seguimiento.md.
+- Revisar el proyecto.
+
+**2. ¿Qué vamos a hacer?**
+
+- Ver las actualizaciones del repositorio guía.
+
+**3. ¿Qué dificultades tengo?**
+
+- Ninguna.
+
 ## 27 de Abril - Seguimiento
 
 **1. ¿Qué hemos hecho?**
 
-- Actualizar el archivo seguimiento.md y revisar el proyecto
-- Actualizar el archivo READ.ME donde definimos el proyecto que vamos a realizar
+- Actualizar el archivo seguimiento.md y revisar el proyecto.
+- Actualizar el archivo READ.ME donde definimos el proyecto que vamos a realizar.
 
 **2. ¿Qué vamos a hacer?**
 
 - Agregar la ruta del archivo de sonido en la descripción de la letra de la canción y ajustar las tildes y caracteres especiales de la canción correspondiente del equipo.
-- Personalizar y definir que se va a hacer de proyecto
+- Personalizar y definir que se va a hacer de proyecto.
 
 **3. ¿Qué dificultades tengo?**
 
-- Ninguna
+- Ninguna.
+
+## 29 de Abril - Seguimiento
+
+**1. ¿Qué hemos hecho?**
+
+- Actualizar el archivo READ.ME con el proyecto ya definido.
+- Actualizar la letra de la canción con la que contribuimos.
+
+**2. ¿Qué vamos a hacer?**
+
+- Esperar futuras instrucciones.
+- Revisar el repositorio guía.
+
+**3. ¿Qué dificultades tengo?**
+
+- Ninguna.
+
+## 4 de Mayo - Seguimiento
+
+**1. ¿Qué hemos hecho?**
+
+- Actualizar el archivo segumiento.md.
+
+**2. ¿Qué vamos a hacer?**
+
+- Crear la interfaz gráfica para nuestro proyecto junto con un menú base.
+
+**3. ¿Qué dificultades tengo?**
+
+- Ninguna.
