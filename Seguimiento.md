@@ -127,7 +127,24 @@
 **2. ¿Qué vamos a hacer?**
 
 - Crear la interfaz gráfica para nuestro proyecto junto con un menú base.
+- Hacer el archivo.csv de las canciones.
 
 **3. ¿Qué dificultades tengo?**
 
 - Ninguna.
+
+## 6 de Mayo - Seguimiento
+
+**1. ¿Qué hemos hecho?**
+
+- Crear una interfaz gráfica usando patorjk.com, con un menú y un personaje que lo muestre.
+- Hacer el archivo.csv.
+
+**2. ¿Qué vamos a hacer?**
+
+- Subir los archivos nuevos que tenemos al repositorio.
+- Empezar el programa.
+
+**3. ¿Qué dificultades tengo?**
+
+-Ninguna.
