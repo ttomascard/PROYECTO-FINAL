@@ -147,4 +147,4 @@
 
 **3. ¿Qué dificultades tengo?**
 
--Ninguna.
+- Ninguna.
