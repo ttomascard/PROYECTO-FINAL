@@ -148,3 +148,19 @@
 **3. ¿Qué dificultades tengo?**
 
 - Ninguna.
+
+## 11 de Mayo - Seguimiento
+
+**1. Qué hemos hecho?**
+
+- Corregir la interfaz gráfica
+- Modificar el proyecto
+
+**2. ¿Qué vamos a hacer?**
+
+- Subir los archivos modificados
+- Actualizar el proyecto
+
+**3. ¿Qué dificultades tengo?**
+
+- Ninguna
