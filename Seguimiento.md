@@ -133,6 +133,7 @@
 
 - Ninguna.
 
+
 ## 6 de Mayo - Seguimiento
 
 **1. ¿Qué hemos hecho?**
@@ -164,3 +165,22 @@
 **3. ¿Qué dificultades tengo?**
 
 - Ninguna
+
+## 13 de Mayo - Seguimiento
+
+**1. Qué hemos hecho?**
+
+- Subir los diferentes al repositorio que ya estan listos
+- Modificar el proyecto
+
+**2. ¿Qué vamos a hacer?**
+
+- Arreglar unas cuantas canciones que no se logran escuchar
+- Validar los números ingresados
+- Finalizar el proyecto
+- Grabar un video de su funcionamiento
+
+**3. ¿Qué dificultades tengo?**
+
+- Ninguna
+
