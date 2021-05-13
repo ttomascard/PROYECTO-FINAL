@@ -12,7 +12,7 @@
 
 ### Proyecto 🎵🎵🎵
 
-- Reproductor de música en java donde las canciones saldrán de una forma aleatoria junto con la letra y el oyente al final de estás las podrá calificar del 1 al 10, siendo 1 muy mala, 5 intermedio, y 10 muy buena.
+- Reproductor de música en java donde se puede ver la letra, la información acerca de la canción, escucharla y después de que la detenga podrá calificar del 1 al 10, siendo 1 muy mala, 5 intermedio, y 10 muy buena.
 
 ### Canciones 📑📑📑
 
