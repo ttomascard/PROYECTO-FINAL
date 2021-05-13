@@ -146,21 +146,37 @@ public class Programa{
 				//TODO: Recuerde usar el helper ConsoleInput y validar
 				centinela = ConsoleInput.getInt();
 
+				//Si el usuario ingresa el 1, se mostrará una lista del nombre de la canción, el autor, album y año
 				if(centinela == 1)
 				{
 					for(int i=0;i<=info_canciones.length-1;i++)
 					{
 						indice_cancion=i;
-						System.out.println(" "+i+" | "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.ALBUM_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AÑO_CANCION]);
-						
+						if(i<10)
+						{
+						System.out.println(" "+i+" | "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.ALBUM_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AÑO_CANCION]);
+						}
+						else
+						{
+							System.out.println(i+" | "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.ALBUM_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AÑO_CANCION]);
+						}
 					}
 				}
 
 				if(centinela == 2)
 				{
-					//TODO: Controlar que el archivo de la cancion exista
+					
 					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
+					
+					//Control de que el dato ingresado por el usuario esté entre 0 y 18.
+					while(indice_cancion>18||indice_cancion<0)
+
+					{
+						System.out.println("El número debe estar entre 0 y 18, vuelva a intentarlo");
+						System.out.println("Ingrese índice de la canción, entre 0 y 18");
+						indice_cancion = ConsoleInput.getInt();
+					}
 					audio.seleccionarCancion(info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
 					audio.reproducir();
 				}
@@ -186,14 +202,16 @@ public class Programa{
 					Scanner lector = new Scanner(System.in);
 					int calificacion1=lector.nextInt();
 					
-					while(calificacion1<1||calificacion1>10&&calificacion1!=100){
+					//Control de que el número ingresado por el usuario esté entre el 1 y el 10, o sea el 100.
+					while(calificacion1<1||calificacion1>10&&calificacion1!=100)
+					{
 					System.out.println(" La calificación debe ser entre 1 y 10, vuelve a intentarlo");
 					System.out.println();
 					System.out.print(" ¿Cómo calificarías la parte que has escuchado del 1 al 10?, donde 1 es muy malo, 5 intermedio y 10 muy bueno: ");
 					calificacion1=lector.nextInt();
 					}
 					
-					
+					//Respuestas que da el sistema según cual sea la puntuación que el usuario le dio
 					if(calificacion1>=1&&calificacion1<=10)
 					{
 					
