@@ -129,6 +129,7 @@ public class Programa{
 		String [] canciones;
 		String [][] info_canciones;
 		StringBuilder letra_cancion;
+		//int bandera; //Si hay un caracter que no es valido
 
 		canciones = ConsoleFile.readBigFile("recursos/letras.csv");
 		info_canciones = ConsoleData.dataList(canciones);
@@ -138,13 +139,14 @@ public class Programa{
 			do{
 
 				// imprimir(""+RandomHelper.random(1,10));
-
+				//bandera=0; 
 				System.out.println();
 				//TODO: Terminar la funcion para que imprima todos los caracteres especiales que use el programa
 				menu();
 				//TODO: Ojo falta validar la entrada de datos
 				//TODO: Recuerde usar el helper ConsoleInput y validar
 				centinela = ConsoleInput.getInt();
+
 
 				//Si el usuario ingresa el 1, se mostrará una lista del nombre de la canción, el autor, album y año
 				if(centinela == 1)
@@ -154,11 +156,11 @@ public class Programa{
 						indice_cancion=i;
 						if(i<10)
 						{
-						System.out.println(" "+i+" | "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.ALBUM_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AÑO_CANCION]);
+						System.out.println(" "+i+" | "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.ALBUM_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);
 						}
 						else
 						{
-							System.out.println(i+" | "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.ALBUM_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AÑO_CANCION]);
+							System.out.println(i+" | "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.ALBUM_CANCION]+" | "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);
 						}
 					}
 				}
@@ -199,8 +201,7 @@ public class Programa{
 				{
 					audio.detener();
 					System.out.print(" Detuviste la canción ¿Cómo calificarías la parte que has escuchado del 1 al 10?, donde 1 es muy malo, 5 intermedio y 10 muy bueno: ");
-					Scanner lector = new Scanner(System.in);
-					int calificacion1=lector.nextInt();
+					int calificacion1=ConsoleInput.getInt();
 					
 					//Control de que el número ingresado por el usuario esté entre el 1 y el 10, o sea el 100.
 					while(calificacion1<1||calificacion1>10&&calificacion1!=100)
@@ -208,28 +209,29 @@ public class Programa{
 					System.out.println(" La calificación debe ser entre 1 y 10, vuelve a intentarlo");
 					System.out.println();
 					System.out.print(" ¿Cómo calificarías la parte que has escuchado del 1 al 10?, donde 1 es muy malo, 5 intermedio y 10 muy bueno: ");
-					calificacion1=lector.nextInt();
+					calificacion1=ConsoleInput.getInt();
 					}
 					
 					//Respuestas que da el sistema según cual sea la puntuación que el usuario le dio
 					if(calificacion1>=1&&calificacion1<=10)
 					{
 					
-					if(calificacion1>0&&calificacion1<4)
-					{
-					System.out.println(" Escucha otra canción posiblemente te guste más");
-					}
-					else
-					{
-					if(calificacion1>=4&&calificacion1<8)
-					{
-					System.out.println(" La siguiente canción puede que te guste más o incluso menos");
-					}
-					else
-					{
-					System.out.println(" Sigue escuchando más canciones, te gustaran muchas más");
-					}
-					}
+						if(calificacion1>0&&calificacion1<4)
+						{
+						System.out.println(" Escucha otra canción posiblemente te guste más");
+						}
+						else
+						{
+					
+							if(calificacion1>=4&&calificacion1<8)
+							{
+							System.out.println(" La siguiente canción puede que te guste más o incluso menos");
+							}
+							else
+							{
+							System.out.println(" Sigue escuchando más canciones, te gustaran muchas más");
+							}
+						}
 					}
 					else if(calificacion1==100)
 					{
@@ -251,14 +253,16 @@ public class Programa{
 					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
 
 					System.out.println();
-					imprimir("Inicio letra "+inicio_letra);
-					imprimir("Fin letra "+fin_letra);
-					imprimir("Nombre "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]);
-					imprimir("Autor "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
-					imprimir("Archivo "+info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
-
-					imprimir("Primera estrofa: "+canciones[inicio_letra]);
-					imprimir("Última estrofa: "+canciones[fin_letra]);
+					//imprimir("Inicio letra "+inicio_letra);
+					//imprimir("Fin letra "+fin_letra);
+					imprimir("Nombre:   "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]);
+					imprimir("Autor:    "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
+					imprimir("Album:    "+info_canciones[indice_cancion][ConsoleData.ALBUM_CANCION]);
+					imprimir("Fecha:    "+info_canciones[indice_cancion][ConsoleData.FECHA_CANCION]);
+					
+					//imprimir("Archivo "+info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
+					//imprimir("Primera estrofa: "+canciones[inicio_letra]);
+					//imprimir("Última estrofa: "+canciones[fin_letra]);
 					
 					//TODO:Convertir a unicode mayúsculas y caracteres especiales
 					//TODO:Explicar como funciona el archivo y como se analiza cada línea
@@ -266,13 +270,17 @@ public class Programa{
 				}
 
 			}while(centinela!=6);
+
 		}
-		catch(Exception e)
-		{
+		
+
+		catch(Exception e){
 			System.out.println(e);
-		}
+			//bandera=1;
+			//System.out.println("El caracter no es valido");
+			}
 		finally{
 			audio.detener();
-		}
+		}//while(bandera !=0);
 	}
 }
