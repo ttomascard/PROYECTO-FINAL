@@ -18,14 +18,10 @@
 
 - A Dios le pido.
 - Cielo.
-- Coldplay - Viva la vida.
 - Como camarón.
 - Cuando sea grande.
-- DMX - Party up.
-- DMX - Ruff ryders anthem.
 - En algún lugar.
-- Friends.
-- Héroes del silencio - Maldito Duende.
+- Maldito Duende.
 - La gasolina.
 - La camisa negra.
 - Laura.
@@ -33,7 +29,6 @@
 - Nada valgo sin tu amor.
 - Rayando el sol.
 - Rosas.
-- Video games themes - Mario Party.
 - Vino tinto.
 - Vivo por ella.
 - Dame amor.
