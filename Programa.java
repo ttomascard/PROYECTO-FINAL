@@ -161,6 +161,16 @@ public class Programa{
 					//TODO: Controlar que el archivo de la cancion exista
 					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
+
+					//Control de que el dato ingresado por el usuario esté entre 0 y 18.
+					while(indice_cancion>18||indice_cancion<0)
+
+					{
+						System.out.println("El número debe estar entre 0 y 18, vuelva a intentarlo");
+						System.out.println("Ingrese índice de la canción, entre 0 y 18");
+						indice_cancion = ConsoleInput.getInt();
+					}
+
 					audio.seleccionarCancion(info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
 					audio.reproducir();
 				}
@@ -171,6 +181,13 @@ public class Programa{
 					//TODO: Falta darle formato amigable de lectura al usuario 
 					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
+
+					while(indice_cancion>18||indice_cancion<0)
+					{
+						System.out.println("El número debe estar entre 0 y 18, vuelva a intentarlo");
+						System.out.println("Ingrese índice de la canción, entre 0 y 18");
+						indice_cancion = ConsoleInput.getInt();
+					}
 
 					inicio_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.INICIO_CANCION]);
 					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
@@ -228,6 +245,13 @@ public class Programa{
 					//TODO: Ojo, falta validar el valor ingresado
 					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
+
+					while(indice_cancion>18||indice_cancion<0)
+					{
+						System.out.println("El número debe estar entre 0 y 18, vuelva a intentarlo");
+						System.out.println("Ingrese índice de la canción, entre 0 y 18");
+						indice_cancion = ConsoleInput.getInt();
+					}
 
 					inicio_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.INICIO_CANCION]);
 					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
