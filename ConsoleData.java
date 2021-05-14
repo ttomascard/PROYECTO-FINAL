@@ -8,7 +8,7 @@ public class ConsoleData{
 	public static final int NOMBRE_CANCION = 2; 
 	public static final int AUTOR_CANCION = 3; 
 	public static final int ALBUM_CANCION = 4;
-	public static final int AÑO_CANCION = 5;
+	public static final int FECHA_CANCION = 5;
 	public static final int RUTA_CANCION = 7; 
 	public static final int SET_LENGTH = 8;
 
