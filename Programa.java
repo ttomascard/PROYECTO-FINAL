@@ -141,11 +141,16 @@ public class Programa{
 				// imprimir(""+RandomHelper.random(1,10));
 				//bandera=0; 
 				System.out.println();
-				//TODO: Terminar la funcion para que imprima todos los caracteres especiales que use el programa
+				
 				menu();
 				//TODO: Ojo falta validar la entrada de datos
 				//TODO: Recuerde usar el helper ConsoleInput y validar
 				centinela = ConsoleInput.getInt();
+				
+				while(centinela<=0||centinela>6){
+					System.out.println("El número debe estar entre 1 y 6, vuelve a intentarlo");
+					centinela = ConsoleInput.getInt();
+				}
 
 
 				//Si el usuario ingresa el 1, se mostrará una lista del nombre de la canción, el autor, album y año
