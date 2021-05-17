@@ -21,11 +21,13 @@
 - Como camarón.
 - Cuando sea grande.
 - En algún lugar.
+- Hijo de la luna.
 - Maldito Duende.
 - La gasolina.
 - La camisa negra.
 - Laura.
 - Me gustas tú.
+- Música ligera
 - Nada valgo sin tu amor.
 - Rayando el sol.
 - Rosas.
@@ -33,6 +35,7 @@
 - Vivo por ella.
 - Dame amor.
 - Lobo hombre en París.
+- Por la raja de tu falda.
 
 
 ![image](https://user-images.githubusercontent.com/77684279/114279257-56607300-99f9-11eb-9f5b-25a75344b846.png)
