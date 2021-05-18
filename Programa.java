@@ -129,7 +129,7 @@ public class Programa{
 		String [] canciones;
 		String [][] info_canciones;
 		StringBuilder letra_cancion;
-		//int bandera; //Si hay un caracter que no es valido
+		
 
 		canciones = ConsoleFile.readBigFile("recursos/letras.csv");
 		info_canciones = ConsoleData.dataList(canciones);
@@ -138,24 +138,25 @@ public class Programa{
 			
 			do{
 
-				// imprimir(""+RandomHelper.random(1,10));
-				//bandera=0; 
+				
 				System.out.println();
 				
 				menu();
-				//TODO: Ojo falta validar la entrada de datos
-				//TODO: Recuerde usar el helper ConsoleInput y validar
+				//TODO: Ojo falta validar la entrada de datos - ok
+				//TODO: Recuerde usar el helper ConsoleInput y validar - ok
 				centinela = ConsoleInput.getInt();
 				
+				//Se valida que la entrada de datos esté dentro del rango
 				while(centinela<=0||centinela>6){
 					System.out.println("El número debe estar entre 1 y 6, vuelve a intentarlo");
 					centinela = ConsoleInput.getInt();
 				}
 
 
-				//Si el usuario ingresa el 1, se mostrará una lista del nombre de la canción, el autor, album y año
+				//Si el usuario ingresa el 1, se mostrará una lista con el nombre de la canción.
 				if(centinela == 1)
 				{
+					//El for es para que salgan todas las canciones y se detenga en la última.
 					for(int i=0;i<=info_canciones.length-1;i++)
 					{
 						indice_cancion=i;
@@ -170,6 +171,7 @@ public class Programa{
 					}
 				}
 
+				//Si el usuario ingresa el 2, podrá reproducir la canción
 				if(centinela == 2)
 				{
 					
@@ -188,13 +190,15 @@ public class Programa{
 					audio.reproducir();
 				}
 
+				//Si el usuario ingresa el 3, podrá ver la letra
 				if(centinela == 3)
 				{
-					//TODO: Ojo, falta validar el valor ingresado
-					//TODO: Falta darle formato amigable de lectura al usuario 
+					//TODO: Ojo, falta validar el valor ingresado - ok
+					
 					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
 
+					//Se valida que el dato ingresado esté dentro del rango
 					while(indice_cancion>18||indice_cancion<0)
 
 					{
@@ -210,6 +214,7 @@ public class Programa{
 					//imprimir(letra_cancion.toString());
 				}
 
+				//Si el usuario ingresa el 4, se detendrá la canción y podrá puntuarla
 				if(centinela == 4)
 				{
 					audio.detener();
@@ -252,16 +257,17 @@ public class Programa{
 					}
 				}
 
+				//Si el usuario ingresa el 5, podrá ver el nombre, el autor, el álbum y la fecha.
 				if(centinela==5)
 				{
 					/* La informacion de las canciones esta
-					en la matriz info_canciones, acá un ejemplo de como imprimir
-					el nombre de la primer canción y su autor */
+					en la matriz info_canciones */
 					
-					//TODO: Ojo, falta validar el valor ingresado
+					
 					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
 
+					//Se valida que el número esté en el rango
 					while(indice_cancion>18||indice_cancion<0)
 
 					{
@@ -285,9 +291,8 @@ public class Programa{
 					//imprimir("Primera estrofa: "+canciones[inicio_letra]);
 					//imprimir("Última estrofa: "+canciones[fin_letra]);
 					
-					//TODO:Convertir a unicode mayúsculas y caracteres especiales
-					//TODO:Explicar como funciona el archivo y como se analiza cada línea
-					//TODO:Imprimir la lista completa
+					
+					
 				}
 
 			}while(centinela!=6);
@@ -297,11 +302,11 @@ public class Programa{
 
 		catch(Exception e){
 			System.out.println(e);
-			//bandera=1;
-			//System.out.println("El caracter no es valido");
+			
+			
 			}
 		finally{
 			audio.detener();
-		}//while(bandera !=0);
+		}
 	}
 }
