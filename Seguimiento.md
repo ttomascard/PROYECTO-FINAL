@@ -184,3 +184,18 @@
 
 - Ninguna
 
+## 18 de Mayo - Seguimiento
+
+**1. Qué hemos hecho?**
+
+- Hacer las diapositivas para la exposición final
+- Modificar el proyecto
+
+**2. Qué vamos a hacer?**
+
+- Hacer un video del funcionamiento y subirlo a Youtube
+
+**3. ¿Qué dificultades tengo?*
+
+- Ninguna
+
