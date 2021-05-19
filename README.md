@@ -8,7 +8,7 @@
 
 ### Nombre del proyecto ☑️☑️☑️
 
-- Escucha y puntua.
+- Escucha & Puntua.
 
 ### Proyecto 🎵🎵🎵
 
@@ -20,22 +20,22 @@
 - Cielo.
 - Como camarón.
 - Cuando sea grande.
+- Dame amor.
 - En algún lugar.
 - Hijo de la luna.
-- Maldito Duende.
 - La gasolina.
 - La camisa negra.
 - Laura.
+- Lobo hombre en París.
+- Maldito duende.
 - Me gustas tú.
-- Música ligera
 - Nada valgo sin tu amor.
+- Por la raja de tu falda.
 - Rayando el sol.
 - Rosas.
 - Vino tinto.
 - Vivo por ella.
-- Dame amor.
-- Lobo hombre en París.
-- Por la raja de tu falda.
+- Música ligera.
 
 
 ![image](https://user-images.githubusercontent.com/77684279/114279257-56607300-99f9-11eb-9f5b-25a75344b846.png)
