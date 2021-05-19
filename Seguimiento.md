@@ -195,7 +195,7 @@
 
 - Hacer un video del funcionamiento y subirlo a Youtube
 
-**3. ¿Qué dificultades tengo?*
+**3. ¿Qué dificultades tengo?**
 
 - Ninguna
 
